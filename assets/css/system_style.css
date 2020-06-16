@@ -1,0 +1,53 @@
+body {
+	background: none;
+}
+
+.card-status {
+	width: 100%;
+	height: 100vh;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	background: #373435;
+	color: #fff!important;
+	transition: .7s;
+	background-color: #2b282b;
+	background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+}
+
+.card-message {
+	width: 100%;
+	height: 100vh;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	background: #373435;
+	color: #fff!important;
+	transition: .2s;
+	background-color: #dcdcde;
+	background-image: url("https://www.transparenttextures.com/patterns/mirrored-squares.png");
+}
+
+hr {
+	border-top: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.card-title {
+	margin-top: 10vh;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.card-image {
+	text-align: center;
+}
+.card-image img {
+	max-width: 200px;
+	transition: 1.3s;
+}
+
+/* .card-status:hover {
+	transform:  scale(1.2);
+}
+*/
+.card-status:hover .card-image img {
+	transform: scale(1.3);
+}

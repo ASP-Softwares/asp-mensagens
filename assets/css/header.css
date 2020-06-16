@@ -1,0 +1,44 @@
+header {
+	background-color: #a42024;
+	padding: 30px;
+	color: #fff;
+}
+
+header a,
+header a:hover,
+header a:active {
+	color: #fff;
+	padding: 0;
+	margin: 0;
+}
+
+header .fa {
+	font-size: 50px;
+	margin-right: 50px;
+	cursor: pointer;
+}
+
+header h2 {
+	margin-top: 8px;
+}
+
+header .btn-register {
+	cursor: pointer;
+	float: right;
+	background-color: #262626;
+	color: #fff;
+	padding: 5px 20px;
+	padding-top: 7px;
+	border-radius: 0;
+}
+
+@media(max-width: 500px) {
+	header h2 {
+		display: none;
+	}
+
+	header .btn-register {
+		display: none;
+	}
+
+}

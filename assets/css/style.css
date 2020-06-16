@@ -1,0 +1,137 @@
+/**
+*
+* Estilo
+*
+* @author Raphael C. Silva
+*
+**/
+
+.container{
+	max-width: 1024px;
+}
+
+a, .btn {
+	cursor: pointer;
+}
+
+.all {
+	margin: 10px;
+	padding: 50px;
+	border: 2px solid black;
+	border-radius: 50px;
+	text-align: center;
+}
+
+.dropdowns {
+	background: #ccc;
+	padding-bottom: 15px;
+}
+
+.dropdowns button {
+	min-width: 90%;
+	margin-top: 15px;
+}
+
+.dropdowns .dropdown-menu { 
+	margin-top: 0;
+	min-width: 90%;
+	margin-left: 22px;
+	text-align: center;
+}
+
+.dropdowns button:hover,
+.dropdowns button:focus,
+.dropdown-menu a:active {
+	background-color: #a42024!important;
+	color: #fff!important;
+}
+
+.btn-buscar {
+	padding: 7px;
+	background-color: #a42024;
+	color: #fff;
+	width: 100%;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.graphic {
+	margin-top: 50px;
+}
+
+.empresa-definida {
+	display: none;
+	color: #fff;
+	margin-top: 23px;
+	margin-left: -7px;
+}
+
+/* section registers */
+
+form {
+	margin: 50px 0;
+}
+
+.card-forms {
+	background-color: #f1f1f1;
+	padding: 20px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+section#registers .card-title {
+	border-bottom: 1px solid #ccc;
+}
+
+.btn-cadastrar,
+.btn-cadastrar-historico {
+	background-color: #a42024;
+	padding: 5px 30px;
+	color: #fff;
+	margin-top: 10px;
+	transition: .7s;
+}
+
+.btn-cadastrar:hover,
+.btn-cadastrar-historico:hover {
+	background-color: darkred;
+	border-radius: 20px;
+}
+
+.btn-more,
+.btn-admin {
+	background-color: green;
+	color: #fff;
+	transition: .7s;
+}
+
+.btn-admin:hover {
+	background-color: black;
+	border-radius: 25px;
+	color: green;
+}
+
+.btn-more:hover {
+	background-color: green;
+	border-radius: 25px;
+}
+
+.btn-more i {
+	margin-right: 10px;
+}
+
+.setAdmin {
+	text-align: right;
+}
+
+.card-content {
+	display: none;
+}
+
+@media(max-width: 1024px) {
+	.setAdmin {
+		text-align: center;
+	}
+}
+
+/* end section registers */

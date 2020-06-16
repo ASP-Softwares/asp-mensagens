@@ -1,0 +1,161 @@
+/* transitions and animations top-site */
+
+.sidebar .sidebar-links ul li a:hover, .sidebar .sidebar-links ul li a.active {
+	border-left: 3px solid #cf2f34;
+}
+
+.pull-right .fa-sync-alt {
+	transition: 0.5s;
+	color: #cf2f34
+}
+
+.pull-right .fa-sync-alt:hover {
+	-webkit-transform:scale(1.4) rotate(360deg);
+	-moz-transform:scale(1.4) rotate(360deg);
+	-o-transform:scale(1.4) rotate(360deg);
+	transform:scale(1.4) rotate(360deg);
+	color: #ca0101;
+}
+
+.pull-right .fa-expand { 
+	color: #cf2f34;
+	transition: 0.5s;
+
+}
+
+.pull-right .fa-expand:hover {
+	-webkit-transform:scale(1.4);
+	-moz-transform:scale(1.4);
+	-o-transform:scale(1.4);
+	transform:scale(1.4);
+	color: #ca0101;
+}
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 52px;
+	height: 25px;
+	margin: 20px 0px;  
+}
+
+.switch input {display:none;}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 17px;
+	width: 17px;
+	left: 4px;
+	bottom: 4px;
+	background-color: #fff;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked + .slider {
+	background-color: #cf2f34;
+}
+
+input:focus + .slider {
+	box-shadow: 0 0 1px #cf2f34;
+}
+
+input:checked + .slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+
+/*fim das transitions*/
+
+.sidebar{
+	margin-left: -10px;
+}
+
+.sidebar-links{
+	margin-left: 10px;
+}	
+
+.pull-right li {
+	text-align: center;
+}
+
+.dropdown-toggle {	
+	opacity: 0.65;
+}
+
+.dropdown.menu-admin, .dropdown.menu-admin button, .dropdown-menu {
+	width: 100%;
+	border-radius: 0;	
+}
+
+.dropdown.menu-admin {
+	background-color: #373435;
+}
+
+.dropdown-menu i {
+	width: 30px;
+	font-size: 25px;
+	text-align: center;
+}
+
+.page-header {
+	padding: 0;
+}
+
+.logo {
+	padding: 10px;
+	width: 100%;
+} 
+
+.card-body {
+	padding: 30px 10px;
+}
+
+li.divider {
+	height: 100%;
+}
+
+.toggle-menu i {
+	color: #cf2f34;
+	font-size: 40px!important;
+	margin-top: 8px;
+}
+
+.operations-menu {
+	margin-left: 25px;
+}
+
+@media (max-width: 1024px) {
+
+	.toggle-menu {
+		display: none;
+	}
+
+	.table {
+		text-align: center;
+	}
+
+}
+
